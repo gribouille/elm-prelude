@@ -1,0 +1,25 @@
+sudo: required 
+dist: trusty
+
+language: node_js
+
+node_js:
+  - "node"
+
+cache:
+  directories:
+    - test/elm-stuff/build-artifacts
+
+os:
+  - linux
+
+before_install:
+  - npm install -g elm@0.18.0 
+  - npm install -g elm-test@0.18.7
+
+install:
+  - node --version
+  - npm --version
+
+script: elm-test
+

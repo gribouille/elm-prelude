@@ -1,4 +1,6 @@
-# elm-prelude
+# elm-prelude 
+
+[![Build Status](https://travis-ci.org/gribouille/elm-prelude.svg?branch=master)](https://travis-ci.org/gribouille/elm-prelude)
 
 Expose usefull functions not in the standard core library.
 
