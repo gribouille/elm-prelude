@@ -1,9 +1,9 @@
 module Prelude exposing (
-  fst, snd, fst3, snd3, thd3,
-  maybe, mapMaybe, catMaybes, isJust, isNothing,
-  result, isOk, isErr, resultFlip, resultValues, resultErrors,
-  const, uncurry3, curry3
-)
+    fst, snd, fst3, snd3, thd3,
+    maybe, mapMaybe, catMaybes, isJust, isNothing,
+    result, isOk, isErr, resultFlip, resultValues, resultErrors,
+    const, uncurry3, curry3
+  )
 
 {-| Extra standard functions.
 
