@@ -1,4 +1,4 @@
-module Prelude.Result exposing (..)
+module Prelude.Result exposing (result, isOk, isErr, resultFlip, resultValues, resultErrors)
 
 {-| Extra Result functions.
 

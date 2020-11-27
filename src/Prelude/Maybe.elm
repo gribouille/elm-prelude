@@ -1,4 +1,4 @@
-module Prelude.Maybe exposing (..)
+module Prelude.Maybe exposing (maybe, mapMaybe, catMaybes, isJust, isNothing)
 
 {-| Extra Maybe functions.
 

@@ -1,4 +1,4 @@
-module Prelude.Tuple exposing (..)
+module Prelude.Tuple exposing (fst, snd, fst3, snd3, thd3)
 
 {-| Extra Tuple functions.
 
